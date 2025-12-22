@@ -1,3 +1,4 @@
+import 'package:chatify/ui/screen/login_screen.dart';
 import 'package:chatify/ui/screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Chatify',
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: LoginScreen(),
     );
   }
 }
